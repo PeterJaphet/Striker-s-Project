@@ -1,4 +1,4 @@
-import React, { Component , Fragment } from "react";
+import React, {  Fragment } from "react";
 
 import Header from '../components/Header';
 import Leftnav from '../components/Leftnav';
@@ -21,8 +21,8 @@ import Profilephoto from '../components/Profilephoto';
 
 
 
-class Home extends Component {
-    render() {
+const Home =()=> {
+    
         return (
             <Fragment> 
                 <Header />
@@ -60,7 +60,7 @@ class Home extends Component {
                 <Appfooter /> 
             </Fragment>
         );
-    }
+    
 }
 
 export default Home;
